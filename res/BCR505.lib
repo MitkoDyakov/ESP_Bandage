@@ -1,0 +1,55 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BCR505
+#
+DEF BCR505 T 0 40 N N 1 L N
+F0 "T" -285 150 50 H V L BNN
+F1 "BCR505" -275 -320 50 H V L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Infineon Technologies" 0 0 50 H I L BNN "MF"
+F5 "\nPre-Biased Bipolar Transistor (BJT) NPN - Pre-Biased 50V 500mA 100MHz 330mW Surface Mount SOT-23-3\n" 0 0 50 H I L BNN "Description"
+F6 "SOT23-3 Infineon" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/BCR505/Infineon+Technologies/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F9 "BCR505" 0 0 50 H I L BNN "MP"
+F10 "In Stock" 0 0 50 H I L BNN "Availability"
+F11 "https://www.snapeda.com/parts/BCR505/Infineon+Technologies/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+$FPLIST
+ SOT23-R_INFINEON
+ SOT23-W_INFINEON
+$ENDFPLIST
+DRAW
+P 2 0 0 6 200 100 120 60 N
+P 2 0 0 6 0 0 0 -40 N
+P 2 0 0 6 0 -160 0 -200 N
+P 2 0 0 6 200 -100 200 -200 N
+P 2 0 0 6 -80 0 0 0 N
+P 2 0 0 6 0 0 100 0 N
+P 2 0 0 6 0 -200 200 -200 N
+P 2 0 0 6 -80 25 -80 -25 N
+P 2 0 0 6 -80 -25 -200 -25 N
+P 2 0 0 6 -200 -25 -200 25 N
+P 2 0 0 6 -200 25 -80 25 N
+P 2 0 0 6 -25 -160 25 -160 N
+P 2 0 0 6 25 -160 25 -40 N
+P 2 0 0 6 25 -40 -25 -40 N
+P 2 0 0 6 -25 -40 -25 -160 N
+P 2 0 0 6 120 -60 200 -100 N
+C 0 0 7 0 0 10 N
+C 200 -200 7 0 0 10 N
+C 0 0 15 0 0 10 N
+C 200 -200 15 0 0 10 N
+T 0 -210 50 50 0 0 0 2k2 Normal 0 L B
+T 900 -100 -50 50 0 0 0 10k Normal 0 R T
+S 90 -100 120 100 0 0 0 F
+P 4 0 0 6 170 -60 150 -100 200 -100 170 -60 f
+X ~ 1 -300 0 100 R 40 40 0 0 P 
+X ~ 2 200 -300 100 U 40 40 0 0 P 
+X ~ 3 200 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ECS-400-10-37B-CKY-TR3
+#
+DEF ECS-400-10-37B-CKY-TR3 Y 0 40 Y Y 1 L N
+F0 "Y" -501 230 50 H V L BNN
+F1 "ECS-400-10-37B-CKY-TR3" -501 -301 50 H V L BNN
+F2 "XTAL_ECS-160-9-37-CKM-TR" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ECS Inc." 0 0 50 H I L BNN "MF"
+F5 "\nCrystal 40MHz ±10ppm (Tol) ±10ppm (Stability) 10pF FUND 40Ohm 4-Pin Mini-CSMD T/R\n" 0 0 50 H I L BNN "Description"
+F6 "SMD-4 ECX" 0 0 50 H I L BNN "PACKAGE"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "SMD-4 ECS Inc." 0 0 50 H I L BNN "Package"
+F9 "https://www.snapeda.com/parts/ECS-400-10-37B-CKY-TR3/ECS+Inc./view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F10 "Manufacturer Recommendation" 0 0 50 H I L BNN "STANDARD"
+F11 "2017" 0 0 50 H I L BNN "PARTREV"
+F12 "https://www.snapeda.com/parts/ECS-400-10-37B-CKY-TR3/ECS+Inc./view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F13 "ECS-400-10-37B-CKY-TR3" 0 0 50 H I L BNN "MP"
+F14 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=11456934&manufacturer=ECS Inc.&part_name=ECS-400-10-37B-CKY-TR3&search_term=ecs-400-10-37b-cky-tr3" 0 0 50 H I L BNN "Purchase-URL"
+F15 "In Stock" 0 0 50 H I L BNN "Availability"
+F16 "ECS INC" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -500 -200 500 200 0 0 5 f
+X OUT/IN 3 700 100 200 L 40 40 0 0 B 
+X IN/OUT 1 -700 100 200 R 40 40 0 0 B 
+X GND 2 700 -100 200 L 40 40 0 0 W 
+X GND 4 700 -100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
